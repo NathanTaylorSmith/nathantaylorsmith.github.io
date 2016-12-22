@@ -167,12 +167,28 @@ contact</a></li>
 
 
 <h2 id="contact">Contact</h2>
-    <form class="subForm" method="post" action="submit.html">       
-        <input name="name" type="text" placeholder="name" class="input" id="name">          
-        <input name="phone" type="text" placeholder="phone" class="input" id="phone">         
-        <input name="email" type="text" placeholder="email" class="input" id="email">            
-        <textarea name="comment" type="text" placeholder="comments" class="input" id="comments"></textarea>
-    </form>
+    <form id="subForm" action="contact.php" method="post">       
+        <input id="name" type="text" 
+            name="name" 
+            placeholder="Name" 
+            class="formInputs"/>      
+        <span class="inputValIcon"><i class="fa fa-user"></i></span>
+        <input id="email" type="email" 
+            name="emailAddress" 
+            placeholder="Email Address" 
+            class="formInputs"/>
+        <span class="inputValIcon"><i class="fa fa-envelope"></i></span>      
+        <input id="phone" type="number" 
+            name="phone"
+            placeholder="Phone Number" 
+            class="formInputs"/>
+        <span class="inputValIcon"><i class="fa fa-phone"></i></span>  
+        <textarea id="comments" type="text" 
+            name="message" 
+            placeholder="Your Message" 
+            class="formInputs"></textarea>
+        <span class="inputValIcon"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>  
+   </form>
 
 <div class="button"><input type="submit" value="Send"></div>
 
