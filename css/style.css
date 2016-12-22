@@ -245,14 +245,22 @@ h2 {
   margin-top: .75em;
 }
 
-#name, #phone, #email, #comments {
+.formInputs {
   width: 100%;
   border: 2px solid white;
   background: black;
-  font-size: .9em;
+  font-size: 1.1em;
   border-radius: 0.25em;
   padding: 0.2em;
   margin-top: 0.5em
+}
+
+.inputValIcon {
+  font-size: 1.4em;
+  display: inline-block;
+  width: 4%;
+  vertical-align: top;
+  margin-top: .8em;
 }
 
 ::-webkit-input-placeholder { 
